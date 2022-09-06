@@ -9,8 +9,6 @@ class Solution:
         check = []
         while True:
             try:
-                if head.next == -1:
-                    return False
                 if head.next in check:
                     return True
                 check.append(head)
